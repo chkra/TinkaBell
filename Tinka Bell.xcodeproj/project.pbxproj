@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		CF155454256A97FA0025A7C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF155453256A97FA0025A7C1 /* AppDelegate.swift */; };
 		CF155456256A97FA0025A7C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF155455256A97FA0025A7C1 /* SceneDelegate.swift */; };
-		CF155458256A97FA0025A7C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF155457256A97FA0025A7C1 /* ViewController.swift */; };
 		CF15545B256A97FA0025A7C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF155459256A97FA0025A7C1 /* Main.storyboard */; };
 		CF15545D256A98000025A7C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF15545C256A98000025A7C1 /* Assets.xcassets */; };
 		CF155460256A98000025A7C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF15545E256A98000025A7C1 /* LaunchScreen.storyboard */; };
+		CF5F8F76256BF2C200E44AFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF155457256A97FA0025A7C1 /* ViewController.swift */; };
+		CF5F8F7A256C48EE00E44AFC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF5F8F79256C48EE00E44AFC /* AVFoundation.framework */; };
+		CF5F8F88256C59A700E44AFC /* v1.0.png in Resources */ = {isa = PBXBuildFile; fileRef = CF5F8F87256C59A600E44AFC /* v1.0.png */; };
+		CF5F8F96256C5A3900E44AFC /* audio3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF5F8F93256C5A3900E44AFC /* audio3.mp3 */; };
+		CF5F8F97256C5A3900E44AFC /* audio1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF5F8F94256C5A3900E44AFC /* audio1.mp3 */; };
+		CF5F8F98256C5A3900E44AFC /* audio2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF5F8F95256C5A3900E44AFC /* audio2.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,12 @@
 		CF15545C256A98000025A7C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF15545F256A98000025A7C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF155461256A98000025A7C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF155469256A9E500025A7C1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CF5F8F79256C48EE00E44AFC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CF5F8F87256C59A600E44AFC /* v1.0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = v1.0.png; sourceTree = "<group>"; };
+		CF5F8F93256C5A3900E44AFC /* audio3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio3.mp3; sourceTree = "<group>"; };
+		CF5F8F94256C5A3900E44AFC /* audio1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio1.mp3; sourceTree = "<group>"; };
+		CF5F8F95256C5A3900E44AFC /* audio2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio2.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF5F8F7A256C48EE00E44AFC /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +54,7 @@
 			children = (
 				CF155452256A97FA0025A7C1 /* Tinka Bell */,
 				CF155451256A97FA0025A7C1 /* Products */,
+				CF5F8F78256C48EE00E44AFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +69,7 @@
 		CF155452256A97FA0025A7C1 /* Tinka Bell */ = {
 			isa = PBXGroup;
 			children = (
+				CF5F8F86256C596A00E44AFC /* misc */,
 				CF155453256A97FA0025A7C1 /* AppDelegate.swift */,
 				CF155455256A97FA0025A7C1 /* SceneDelegate.swift */,
 				CF155457256A97FA0025A7C1 /* ViewController.swift */,
@@ -63,8 +77,36 @@
 				CF15545C256A98000025A7C1 /* Assets.xcassets */,
 				CF15545E256A98000025A7C1 /* LaunchScreen.storyboard */,
 				CF155461256A98000025A7C1 /* Info.plist */,
+				CF155469256A9E500025A7C1 /* README.md */,
+				CF5F8F7B256C4B0D00E44AFC /* Sounds */,
 			);
 			path = "Tinka Bell";
+			sourceTree = "<group>";
+		};
+		CF5F8F78256C48EE00E44AFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF5F8F79256C48EE00E44AFC /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF5F8F7B256C4B0D00E44AFC /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				CF5F8F94256C5A3900E44AFC /* audio1.mp3 */,
+				CF5F8F95256C5A3900E44AFC /* audio2.mp3 */,
+				CF5F8F93256C5A3900E44AFC /* audio3.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		CF5F8F86256C596A00E44AFC /* misc */ = {
+			isa = PBXGroup;
+			children = (
+				CF5F8F87256C59A600E44AFC /* v1.0.png */,
+			);
+			path = misc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +168,11 @@
 			files = (
 				CF155460256A98000025A7C1 /* LaunchScreen.storyboard in Resources */,
 				CF15545D256A98000025A7C1 /* Assets.xcassets in Resources */,
+				CF5F8F96256C5A3900E44AFC /* audio3.mp3 in Resources */,
+				CF5F8F88256C59A700E44AFC /* v1.0.png in Resources */,
 				CF15545B256A97FA0025A7C1 /* Main.storyboard in Resources */,
+				CF5F8F98256C5A3900E44AFC /* audio2.mp3 in Resources */,
+				CF5F8F97256C5A3900E44AFC /* audio1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF155458256A97FA0025A7C1 /* ViewController.swift in Sources */,
+				CF5F8F76256BF2C200E44AFC /* ViewController.swift in Sources */,
 				CF155454256A97FA0025A7C1 /* AppDelegate.swift in Sources */,
 				CF155456256A97FA0025A7C1 /* SceneDelegate.swift in Sources */,
 			);
@@ -296,7 +342,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chkra.Tinka-Bell";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -315,7 +361,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chkra.Tinka-Bell";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
